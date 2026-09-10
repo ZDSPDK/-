@@ -34,11 +34,20 @@
 - 关闭后再次打开，会尽量恢复未完成任务
 - 桌面端（Windows）和安卓端，界面一致
 
+## 直接下载
+
+编译好的文件在仓库 [`release/`](https://github.com/ZDSPDK/-/tree/main/release) 目录，下载后即可使用：
+
+- Windows：[BT下载器.exe](https://github.com/ZDSPDK/-/raw/main/release/BT下载器.exe)
+- Android：[BT下载器.apk](https://github.com/ZDSPDK/-/raw/main/release/BT下载器.apk)
+
+安卓若提示未知来源，在系统设置里允许安装即可。
+
 ## 怎么用
 
 ### 桌面端
 
-1. 运行打包好的 `BT下载器.exe`，或在 `desktop` 目录执行 `python app.py`
+1. 下载并运行 `release/BT下载器.exe`，或在 `desktop` 目录执行 `python app.py`
 2. 浏览器会打开本地页面：`http://127.0.0.1:8888`
 3. 顶部「浏览」选择下载目录
 4. 粘贴 `magnet:` 或 `http(s)://` 链接，或上传 `.torrent`
@@ -48,7 +57,7 @@
 
 ### 安卓端
 
-安装 APK 后打开即可，用法和桌面端相同。安卓 11 及以上若要自选存储路径，需要授予「所有文件访问」权限。默认目录是系统下载文件夹下的 `TorrentDownloads`。
+安装 `release/BT下载器.apk` 后打开即可，用法和桌面端相同。安卓 11 及以上若要自选存储路径，需要授予「所有文件访问」权限。默认目录是系统下载文件夹下的 `TorrentDownloads`。
 
 ## 说明
 
