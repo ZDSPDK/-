@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Desktop runtime / packager
+desktop/downloads/
+desktop/.bt_downloader/
+desktop/build/
+desktop/dist/
+desktop/*.spec.bak
+
+# Android build
+android/.gradle/
+android/local.properties
+android/app/build/
+android/build/
+*.iml
+.idea/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
